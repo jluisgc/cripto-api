@@ -8,8 +8,8 @@ yesterday = today - timedelta(days=1)
 
 
 def criptodata(dataticker):
-    api_key = "ez1Oe4LKTrIR0gT0BkwvP5ynjYM2nap400THUIZbhAbz4azcyPkEtdgHG1or4Wn0"
-    api_secret = "ogtJZtCEJHkn75MfcmYSj6mcKsxQPRwsBHnQACTdgjjCt9OUeWrC1cmp2449qrHF"
+    api_key = ""
+    api_secret = ""
     client = Client(api_key, api_secret)
     price = client.get_symbol_ticker(symbol=dataticker)
     print(price)
