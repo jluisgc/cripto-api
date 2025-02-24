@@ -20,7 +20,7 @@ lista.append(criptoclean[0])
 lista.append(criptoclean[1])
 lista.append(criptoclean[2])
 
-with open('reddit.csv', 'w', newline='') as csvfile:
+with open('data/reddit.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',')
     writer.writerow(criptoclean)
 

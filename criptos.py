@@ -25,7 +25,7 @@ def criptodata(dataticker):
     df = df.astype("float")
     print(df)
     #save to csv:
-    df.to_csv(dataticker + ".csv", encoding="utf-8")
+    df.to_csv("data/" + dataticker + ".csv", encoding="utf-8")
     print("Data extraction finished.")
 
 
